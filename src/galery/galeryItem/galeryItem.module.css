@@ -1,8 +1,8 @@
-img {
+.galeryImg{
     width: 300px;
     padding-top: 20px;
 }
 
-button{
+.galeryButton{
     margin-bottom: 20px;
 }

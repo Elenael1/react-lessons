@@ -6,11 +6,11 @@ export const GaleryItem = ({paints}) => {
 
   return (
     <li>
-        <img src={paints.url} alt={paints.author.tag} />
+        <img className={s.galeryImg} src={paints.url} alt={paints.author.tag} />
         <h2>{paints.title}</h2>
         <p>Price: {paints.price }</p>
         <p>Quantity: {paints.quantity}</p>
-        <button onClick={(e) => console.log('buy something')}>Buy something</button>
+        <button className={s.galeryButton} onClick={(e) => console.log('buy something')}>Buy something</button>
         <hr />
     </li>
   )
